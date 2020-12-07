@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name="viewport" content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='20.js'></script>
+<style>
+    #flag {
+        width: 100px;
+        height: 100px;
+    }
+    .greenFlag {
+        background-color: darkgreen;
+    }
+    .redFlag {
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+<!--
+
+
+<p>Clicks: <a id="currentNumber">0</a></p>
+<button onclick="Increase();">Increase</button>
+<button onclick="Decrease();">Decrease</button>
+-->
+
+    
+
+<div id="currentNumber">0</div>
+<button onclick="ChangeNumber(1);">Increase</button>
+<button onclick="ChangeNumber(-1);">Decrease</button>
+<div id="flag" class="greenFlag" onclick="changeFlag()"></div>
+
+</body>
+</html>
