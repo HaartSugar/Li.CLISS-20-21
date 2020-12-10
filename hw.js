@@ -19,5 +19,11 @@ function SelectThisCountry() {
     } else {
         document.getElementById("selectedCountries").innerHTML += "<li>" + countries[a] + "</li>";
     }
+    countries.splice(a , 1);
 
+    document.getElementById("listOfCountries").innerHTML = "";
+
+    fillInSelect();
+
+    //alert(countries)
 }
